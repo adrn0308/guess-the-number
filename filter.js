@@ -46,8 +46,6 @@ const getDataSet = (btnValue) => {
 
         guess_number.push(output);
 
-        console.log(guess_number);
-
         if (guess_number.length === 1) {
 
             guess_num = guess_number[0];

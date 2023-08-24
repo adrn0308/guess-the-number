@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+            </div>
+
+            <div class="modal-body">
+                <span>GUESS A 4 DIGIT NUMBER</span>
+                <p>with 4 different digits</p>
+            </div>
+        </div>
+    </div>
+
+   
+
+
+
+    <div class="container">
+
+
+            <table id="table-data">
+                <tr>
+                    <th><h3>YOUR GUESS</h3></th>
+                    <th><h6>CORRECT NUMBERS</h6></th>
+                    <th><h6>CORRECT POSITION</h6></th>
+                </tr>
+    
+                <tr>
+                    <td id="number-1"></td>
+                    <td id="correct_no1"></td>
+                    <td id="position_no1"></td>
+                </tr>
+    
+                <tr>
+                    <td id="number-2"></td>
+                    <td id="correct_no2"></td>
+                    <td id="position_no2"></td>
+                </tr>
+    
+                <tr>
+                    <td id="number-3"></td>
+                    <td id="correct_no3"></td>
+                    <td id="position_no3"></td>
+                </tr>
+    
+                <tr>
+                    <td id="number-4"></td>
+                    <td id="correct_no4"></td>
+                    <td id="position_no4"></td>
+                </tr>
+    
+                <tr>
+                    <td id="number-5"></td>
+                    <td id="correct_no5"></td>
+                    <td id="position_no5"></td>
+                </tr>
+    
+                <tr>
+                    <td id="number-6"></td>
+                    <td id="correct_no6"></td>
+                    <td id="position_no6"></td>
+                </tr>
+    
+                <tr>
+                    <td id="number-7"></td>
+                    <td id="correct_no7"></td>
+                    <td id="position_no7"></td>
+                </tr>
+    
+                <tr>
+                    <td id="number-8"></td>
+                    <td id="correct_no8"></td>
+                    <td id="position_no8"></td>
+                </tr>
+    
+                <tr>
+                    <td id="number-9"></td>
+                    <td id="correct_no9"></td>
+                    <td id="position_no9"></td>
+                </tr>
+    
+                <tr>
+                    <td id="number-10"></td>
+                    <td id="correct_no10"></td>
+                    <td id="position_no10"></td>
+                </tr>
+            </table>
+    
+    
+            <input type="text" class="display" minlength="4">
+            <div class="buttons">
+                <button class="btn-1" data-value="1">1</button>
+                <button class="btn-2" data-value="2">2</button>
+                <button class="btn-3" data-value="3">3</button>
+                <button class="btn-4" data-value="4">4</button>
+                <button class="btn-5" data-value="5">5</button>
+                <button class="btn-6" data-value="X">X</button>
+                <button class="btn-7" data-value="6">6</button>
+                <button class="btn-8" data-value="7">7</button>
+                <button class="btn-9" data-value="8">8</button>
+                <button class="btn-10" data-value="9">9</button>
+                <button class="btn-11" data-value="0">0</button>
+                <button class="btn-12" data-value="GO">GO</button>
+            </div>
+
+        
+    </div>
+
+ 
+
+    <script src="filter.js"></script>
+    
+</body>
+</html>
